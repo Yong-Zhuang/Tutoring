@@ -1,0 +1,17 @@
+<project basedir="." default="compile" name="CS681-HW6" >
+  <target name="init">
+	<mkdir dir="${basedir}/bin"/>
+	</target>
+  <target depends = "init" name="input-runargs" unless="args" description="prompts for command line arguments if necessary">
+    <input addProperty="args" message="Type the number of times and number of threads with a blank among them, and then click 'Enter' button:"/>
+  </target>
+  <target name="compile" depends = "input-runargs">
+    <echo message="start to compile" /> 	 	
+    <javac destdir="${basedir}/bin" srcdir="${basedir}/src" includeantruntime="false"/>
+  	<echo message="start to test" /> 
+    <java classpath="${basedir}/bin" classname="MCTest"> 
+		<arg line="${args}"/>
+	</java>
+  	<echo message="end" />
+  </target>
+</project>

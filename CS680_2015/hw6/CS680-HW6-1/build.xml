@@ -1,0 +1,41 @@
+<?xml version="1.0"?>    
+<project basedir="." default="test" name="CS680-HW6-1" >
+ <!-- properies -->    
+    <property name="src.dir" value="${basedir}/src" />  
+    <property name="test.dir" value="${basedir}/test/src" />    
+    <property name="classes.dir" value="${basedir}/bin" />    
+    <property name="lib.dir" value="${basedir}/lib" />  
+    <property name="junit-report" value="${basedir}/report/junit-report" />    
+    <path id="master-classpath">    
+        <fileset file="${lib.dir}/*.jar" />    
+        <pathelement path="${classes.dir}"/>    
+    </path>    
+    <target name="init">  
+    	<mkdir dir="${classes.dir}"/>   
+        <mkdir dir="${junit-report}"/>         
+    </target>    
+    <target name="compile" depends="init" description="compile the source files">   
+        <javac srcdir="${src.dir}" destdir="${classes.dir}" includeantruntime="false"/>
+        <javac srcdir="${test.dir}" destdir="${classes.dir}" includeantruntime="false">    
+            <classpath refid="master-classpath"/>      
+        </javac>    
+    </target>  
+    <target name="test" depends="compile" description="run junit test">  
+        <junit printsummary="yes" >    
+            <classpath refid="master-classpath" />    
+            <formatter type="plain"/>    
+            <batchtest todir="${junit-report}">    
+                <fileset dir="${test.dir}">    
+                    <include name="**/*Test.java"/>    
+                </fileset>    
+                <formatter type="xml"/>  
+            </batchtest>    
+        </junit>   
+        <junitreport todir="${junit-report}">  
+        <fileset dir="${junit-report}">  
+        <include name="TEST-*.xml"/>  
+        </fileset>  
+        <report format="noframes" todir="${junit-report}"/>  
+        </junitreport>  
+    </target>    
+</project>  

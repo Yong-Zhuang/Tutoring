@@ -1,0 +1,4 @@
+
+public enum CommandName {
+	PWD,CD,LS,DIR,MKDIR,RMDIR,LN,HISTORY,REDO,SORT,CHOWN,QUIT
+}

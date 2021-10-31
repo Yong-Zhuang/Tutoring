@@ -1,0 +1,16 @@
+<?xml version="1.0"?>    
+<project basedir="." default="compile" name="CS680-HW16-1" >
+ <!-- properies -->    
+    <property name="src.dir" value="${basedir}/src" />    
+    <property name="classes.dir" value="${basedir}/bin" />  
+    <target name="init">  
+    	<mkdir dir="${classes.dir}"/>           
+    </target>    
+    <target name="compile" depends="init" description="compile the source files"> 
+		<echo message="start to compile" /> 	   
+        <javac srcdir="${src.dir}" destdir="${classes.dir}" includeantruntime="false"/>
+		<echo message="start to test" /> 
+		<java classpath="${basedir}/bin" classname="Test" /> 		
+		<echo message="end" />
+    </target> 
+</project>  

@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<project basedir="." default="test" name="CS680-HW8-1"  xmlns:jacoco="antlib:org.jacoco.ant" >
+	<!-- properies -->
+	<property name="src.dir" value="${basedir}/src" />
+	<property name="test.dir" value="${basedir}/test/src" />
+	<property name="classes.dir" value="${basedir}/bin" />
+	<property name="lib.dir" value="${basedir}/lib" />
+	<property name="junit-report" value="${basedir}/report/junit-report" />
+	<property name="findbugs-report" value="${basedir}/report/findbugs-report" />
+	<property name="jacoco-report" value="${basedir}/report/jacoco-report" />
+	<property name="findbugs.home" value="findbugs" />
+	<path id="findbugs.path">
+		<fileset dir="findbugs">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+	<path id="master-classpath">
+		<fileset file="${lib.dir}/*.jar" />
+		<fileset file="${findbugs.home}/lib/*.jar" />
+		<pathelement path="${classes.dir}"/>
+	</path>
+	<target name="init">
+		<mkdir dir="${classes.dir}"/>
+		<mkdir dir="${junit-report}"/>
+		<mkdir dir="${findbugs-report}" />
+	</target>
+	<taskdef name="findbugs" classname="edu.umd.cs.findbugs.anttask.FindBugsTask" classpathref="findbugs.path" />
+	<target name="findbugs"  depends="init">
+		<findbugs home="${findbugs.home}" output="html"  outputFile="${findbugs-report}/calendar-fb.html">
+			<!-- define the searching path for findbugs -->
+			<!-- <auxClasspath path="${findbugs.home}/lib/findbugs-ant.jar" /> -->
+			<auxClasspath  refid="master-classpath" />
+			<sourcePath path="${src.dir}" />
+			<class location="${classes.dir}" />
+		</findbugs>
+	</target>
+	<target name="compile" depends="findbugs" description="compile the source files">
+		<javac srcdir="${src.dir}" destdir="${classes.dir}" includeantruntime="false"/>
+		<javac srcdir="${test.dir}" destdir="${classes.dir}" includeantruntime="false">
+			<classpath refid="master-classpath"/>
+		</javac>
+	</target>
+	<taskdef uri="antlib:org.jacoco.ant" resource="org/jacoco/ant/antlib.xml">
+		<classpath refid="master-classpath" />
+	</taskdef>
+	<target name="test" depends="compile" description="run junit test">
+		<jacoco:coverage destfile="${classes.dir}/jacoco.exec">
+			<junit fork="true" forkmode="once" printsummary="yes" >
+				<classpath refid="master-classpath" />
+				<formatter type="plain"/>
+				<batchtest todir="${junit-report}">
+					<fileset dir="${test.dir}">
+						<include name="**/*Test.java"/>
+					</fileset>
+					<formatter type="xml"/>
+				</batchtest>
+			</junit>
+		</jacoco:coverage>
+		<junitreport todir="${junit-report}">
+			<fileset dir="${junit-report}">
+				<include name="TEST-*.xml"/>
+			</fileset>
+			<report format="noframes" todir="${junit-report}"/>
+		</junitreport>
+		<jacoco:report>
+			<executiondata>
+				<file file="${classes.dir}/jacoco.exec" />
+			</executiondata>
+			<structure name="dw demo">
+				<classfiles>
+					<fileset dir="${classes.dir}" />
+				</classfiles>
+				<sourcefiles encoding="UTF-8">
+					<fileset dir="${src.dir}" />
+				</sourcefiles>
+			</structure>
+			<html destdir="${jacoco-report}" />
+		</jacoco:report>
+	</target>
+</project>

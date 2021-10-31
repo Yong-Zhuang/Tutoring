@@ -1,0 +1,14 @@
+<project basedir="." default="compile" name="CS680-HW4-1" >
+  <target name="init">
+	<mkdir dir="${basedir}/bin"/>
+	</target>
+  <target name="compile" depends = "init">
+    <echo message="start to compile" /> 	 	
+    <javac destdir="${basedir}/bin" srcdir="${basedir}/src" includeantruntime="false"/>
+  	<echo message="start to test alternative1" /> 
+    <java classpath="${basedir}/bin" classname="Alternative1.Test" /> 	
+  	<echo message="start to test alternative2" /> 
+    <java classpath="${basedir}/bin" classname="Alternative2.Test" /> 		
+  	<echo message="end" />
+  </target>
+</project>
