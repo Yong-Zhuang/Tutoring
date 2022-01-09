@@ -1,7 +1,7 @@
-# Every ML Problem involves **three** key stages (after you have the data and business problem defined obviously)
+# Machine learning problem involves *three* key stages 
 
 ### Exploration of Data
---
+***
 
 - What do you see?
 - What can you say?
@@ -13,7 +13,7 @@
 - Do you think this missingness can be removed?
 
 ### Modeling
---
+***
 
 - Try the simplest model, do not be fancy, test the waters --> The Base Model will set the benchmark for worst behavior
 - Increase complexity by iterating over multiple techniques, do not use all because that shows your incompetence, choose wisely
@@ -21,7 +21,7 @@
 - Check the necessary metrics given the task
 
 ### Optimization and Interface
---
+***
 
 - Can you improve the predictive performance?
 - How easily can you optimize your model parameters? 
