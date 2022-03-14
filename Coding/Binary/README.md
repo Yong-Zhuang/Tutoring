@@ -1,5 +1,7 @@
-- Sum of Two Integers
-- Number of 1 Bits
-- Counting Bits
-- Missing Number
-- Reverse Bits
+| Problems      | Solutions    |
+| :---        |  :--- |
+|[Sum of Two Integers]()|[solution]()|
+|[Number of 1 Bits]()|[solution]()|
+|[Counting Bits]()|[solution]()|
+|[Missing Number]()|[solution]()|
+|[Reverse Bits]()|[solution]()|

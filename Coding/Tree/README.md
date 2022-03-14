@@ -1,14 +1,16 @@
-- Maximum Depth of Binary Tree
-- Same Tree
-- Invert/Flip Binary Tree
-- Binary Tree Maximum Path Sum
-- Binary Tree Level Order Traversal
-- Serialize and Deserialize Binary Tree
-- Subtree of Another Tree
-- Construct Binary Tree from Preorder and Inorder Traversal
-- Validate Binary Search Tree
-- Kth Smallest Element in a BST
-- Lowest Common Ancestor of BST
-- Implement Trie (Prefix Tree)
-- Add and Search Word
-- Word Search II
+| Problems      | Solutions    |
+| :---        |  :--- |
+|[Maximum Depth of Binary Tree]()|[solution]()|
+|[Same Tree]()|[solution]()|
+|[Invert/Flip Binary Tree]()|[solution]()|
+|[Binary Tree Maximum Path Sum]()|[solution]()|
+|[Binary Tree Level Order Traversal]()|[solution]()|
+|[Serialize and Deserialize Binary Tree]()|[solution]()|
+|[Subtree of Another Tree]()|[solution]()|
+|[Construct Binary Tree from Preorder and Inorder Traversal]()|[solution]()|
+|[Validate Binary Search Tree]()|[solution]()|
+|[Kth Smallest Element in a BST]()|[solution]()|
+|[Lowest Common Ancestor of BST]()|[solution]()|
+|[Implement Trie (Prefix Tree)]()|[solution]()|
+|[Add and Search Word]()|[solution]()|
+|[Word Search II]()|[solution]()|

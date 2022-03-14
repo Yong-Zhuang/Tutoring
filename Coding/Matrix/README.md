@@ -1,4 +1,6 @@
-- Set Matrix Zeroes
-- Spiral Matrix
-- Rotate Image
-- Word Search
+| Problems      | Solutions    |
+| :---        |  :--- |
+|[Set Matrix Zeroes]()|[solution]()|
+|[Spiral Matrix]()|[solution]()|
+|[Rotate Image]()|[solution]()|
+|[Word Search]()|[solution]()|
