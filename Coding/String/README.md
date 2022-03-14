@@ -1,10 +1,12 @@
-- Longest Substring Without Repeating Characters
-- Longest Repeating Character Replacement
-- Minimum Window Substring
-- Valid Anagram
-- Group Anagrams
-- Valid Parentheses
-- Valid Palindrome
-- Longest Palindromic Substring
-- Palindromic Substrings
-- Encode and Decode Strings (Leetcode Premium)
+| Problems      | Solutions    |
+| :---        |  :--- |
+|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[solution](./longest-substring-without-repeating-characters.py)|
+|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[solution](./longest-substring-without-repeating-characters.py)|
+|[Minimum Window Substring]()|[solution]()|
+|[Valid Anagram]()|[solution]()|
+|[Group Anagrams]()|[solution]()|
+|[Valid Parentheses]()|[solution]()|
+|[Valid Palindrome]()|[solution]()|
+|[Longest Palindromic Substring]()|[solution]()|
+|[Palindromic Substrings]()|[solution]()|
+|[Encode and Decode Strings]()|[solution]()|
