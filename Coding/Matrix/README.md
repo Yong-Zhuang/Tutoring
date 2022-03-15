@@ -1,4 +1,4 @@
-| Problems      | Solutions    |
+| Problems      | Solutions    🔴🟡🟢|
 | :---        |  :--- |
 |[Set Matrix Zeroes]()|[solution]()|
 |[Spiral Matrix]()|[solution]()|

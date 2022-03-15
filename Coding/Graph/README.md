@@ -1,4 +1,4 @@
-| Problems      | Solutions    |
+| Problems      | Solutions   🔴🟡🟢 |
 | :---        |  :--- |
 |[Clone Graph]()|[solution]()|
 |[Course Schedule]()|[solution]()|

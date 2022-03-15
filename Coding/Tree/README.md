@@ -1,9 +1,9 @@
-| Problems      | Solutions    |
+| Problems 🔴🟡🟢     | Solutions    |
 | :---        |  :--- |
-|[Maximum Depth of Binary Tree]()|[solution]()|
-|[Same Tree]()|[solution]()|
-|[Invert/Flip Binary Tree]()|[solution]()|
-|[Binary Tree Maximum Path Sum]()|[solution]()|
+|🟢[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[solution](./maximum-depth-of-binary-tree.py)|
+|🟢[Same Tree](https://leetcode.com/problems/same-tree/)|[solution](./same-tree.py)|
+|🟢[Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[solution](./invert-binary-tree.py)|
+|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|[solution](./binary-tree-maximum-path-sum.py)|
 |[Binary Tree Level Order Traversal]()|[solution]()|
 |[Serialize and Deserialize Binary Tree]()|[solution]()|
 |[Subtree of Another Tree]()|[solution]()|
