@@ -1,7 +1,7 @@
 | Problems      | Solutions    |
 | :---        |  :--- |
 |🟡[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[solution](./longest-substring-without-repeating-characters.py)|
-|🟡[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[solution](./longest-substring-without-repeating-characters.py)|
+|🟡[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[solution](./longest-repeating-character-replacement.py)|
 |🔴[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|[solution](./minimum-window-substring.py)|
 |🟢[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[solution](./valid-anagram.py)|
 |🟡[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[solution](./group-anagrams.py)|
