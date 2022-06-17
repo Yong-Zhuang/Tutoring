@@ -1,35 +1,26 @@
-class TrieNode():
-    def __init__(self):
-        self.children = collections.defaultdict(TrieNode)
-        self.isWord = False
+class WordDictionary:
 
-
-class WordDictionary(object):
     def __init__(self):
-        self.root = TrieNode()
+        self.root = {}
 
     def addWord(self, word):
         node = self.root
-        for w in word:
-            node = node.children[w]
-        node.isWord = True
+        for char in word:
+            node = node.setdefault(char, {})
+        node[None] = None
 
     def search(self, word):
-        node = self.root
-        self.res = False
-        self.dfs(node, word)
-        return self.res
+        def find(word, node):
+            if not word:
+                return None in node
+            char, word = word[0], word[1:]
+            if char != '.':
+                return char in node and find(word, node[char])
+            return any(find(word, kid) for kid in node.values() if kid)
+        return find(word, self.root)
 
-    def dfs(self, node, word):
-        if not word:
-            if node.isWord:
-                self.res = True
-            return
-        if word[0] == ".":
-            for n in node.children.values():
-                self.dfs(n, word[1:])
-        else:
-            node = node.children.get(word[0])
-            if not node:
-                return
-            self.dfs(node, word[1:])
+
+# Your WordDictionary object will be instantiated and called as such:
+# obj = WordDictionary()
+# obj.addWord(word)
+# param_2 = obj.search(word)
