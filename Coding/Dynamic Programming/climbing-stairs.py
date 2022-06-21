@@ -4,3 +4,6 @@ class Solution:
         for _ in range(n):
             cur, next = next, cur + next
         return cur
+
+#Time: O(n)
+#Space: O(1)

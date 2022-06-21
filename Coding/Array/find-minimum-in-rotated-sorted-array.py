@@ -1,12 +1,14 @@
 class Solution:
     def findMin(self, nums: List[int]) -> int:
-        if nums[0] <= nums[-1]:
-            return nums[0]
-        elif len(nums) == 2:
-            return nums[1]
-        else:
-            half = len(nums)//2
-            if nums[half] > nums[-1]:
-                return self.findMin(nums[half+1:])
+        s, e = 0, len(nums)-1
+        while s <= e:
+            mid = (s+e)//2
+            if nums[mid] < nums[e]:
+                e = mid
+            elif nums[mid] > nums[e]:
+                s = mid+1
             else:
-                return self.findMin(nums[:half+1])
+                return nums[e]
+
+#Time: O(logn)
+#Space: O(1)

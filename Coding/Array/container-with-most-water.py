@@ -12,3 +12,6 @@ class Solution:
                 r -= 1
                 l += 1
         return area
+
+#Time: O(n)
+#Space: O(1)

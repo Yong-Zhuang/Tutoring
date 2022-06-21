@@ -8,3 +8,6 @@ class Solution:
             else:
                 start = i
         return output
+
+#Time: O(n)
+#Space: O(1)

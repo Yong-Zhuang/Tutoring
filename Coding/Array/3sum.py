@@ -25,3 +25,6 @@ class Solution:
                 if -n[i]-n[j] in P:
                     results.add(tuple(sorted((n[i], n[j], -n[i]-n[j]))))
         return results
+
+#Time: O(n^2)
+#Space: O(n)

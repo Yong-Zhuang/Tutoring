@@ -8,3 +8,6 @@ class Solution:
                 left += 1
             else:
                 return [left+1, right+1]
+
+#Time: O(n)
+#Space: O(1)

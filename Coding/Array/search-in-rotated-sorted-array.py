@@ -16,3 +16,6 @@ class Solution:
                 else:
                     right = mid-1
         return -1
+
+#Time: O(n)
+#Space: O(1)

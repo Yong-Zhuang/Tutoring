@@ -9,3 +9,7 @@ class Solution:
         if (a >> 31) == 1:
             return ~(a ^ mask)
         return a
+
+
+#Time: O(1)
+#Space: O(1)

@@ -8,3 +8,6 @@ class Solution:
             left *= nums[i]
             right *= nums[l-i-1]
         return arr
+
+#Time: O(n)
+#Space: O(n)

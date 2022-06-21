@@ -12,6 +12,7 @@
 ||🟡[3 Sum](https://leetcode.com/problems/3sum/)|[solution](Array/3sum.py)|
 ||🟡[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[solution](Array/container-with-most-water.py)|
 ||🟡[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[solution](Array/top-k-frequent-elements.py)|
+||🟡[Factor Combinations](https://leetcode.com/problems/factor-combinations/)|[solution](Array/factor-combinations.py)|
 |**Binary**|🟡[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[solution](Binary/sum-of-two-integers.py)|
 ||🟢[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[solution](Binary/number-of-1-bits.py)|
 ||🟢[Counting Bits](https://leetcode.com/problems/counting-bits/)|[solution](Binary/counting-bits.py)|
@@ -19,11 +20,16 @@
 ||🟢[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[solution](Binary/reverse-bits.py)|
 |**Dynamic Programming**|🟢[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)| [solution](Dynamic%20Programming/climbing-stairs.py)|
 ||🟢[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)| [solution](Dynamic%20Programming/fibonacci-number.py)| 
+||[Grid Traveler](Dynamic%20Programming/grid-traveler.py)| [solution](Dynamic%20Programming/grid-traveler.py)|
+||[Can Sum](Dynamic%20Programming/can-sum.py)| [solution](Dynamic%20Programming/can-sum.py)|  
 ||🟡[Coin Change](https://leetcode.com/problems/coin-change/)| [solution](Dynamic%20Programming/coin-change.py)| 
 ||🟡[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| [solution](Dynamic%20Programming/longest-increasing-subsequence.py)| 
 ||🟡[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)| [solution](Dynamic%20Programming/longest-common-subsequence.py)| 
 ||🟡[Word Break](https://leetcode.com/problems/word-break/)| [solution](Dynamic%20Programming/word-break.py)| 
-||🟡[Combination Sum](https://leetcode.com/problems/combination-sum/)| [solution](Dynamic%20Programming/combination-sum.py)| 
+||🟡[Combination](https://leetcode.com/problems/combinations/)| [solution](Dynamic%20Programming/combinations.py)| 
+||🟡[Combination Sum](https://leetcode.com/problems/combination-sum/)| [solution](Dynamic%20Programming/combination-sum.py)|
+||🟡[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)| [solution](Dynamic%20Programming/combination-sum-iii.py)|  
+||🟡[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)| [solution](Dynamic%20Programming/combination-sum-iv.py)|  
 ||🟡[House Robber](https://leetcode.com/problems/house-robber/)| [solution](Dynamic%20Programming/house-robber.py)| 
 ||🟡[House Robber II](https://leetcode.com/problems/house-robber-ii/)| [solution](Dynamic%20Programming/house-robber-ii.py)| 
 ||🟡[Decode Ways](https://leetcode.com/problems/decode-ways/)| [solution](Dynamic%20Programming/decode-ways.py)| 

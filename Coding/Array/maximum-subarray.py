@@ -7,3 +7,6 @@ class Solution:
             if temp < 0:
                 temp = 0
         return largest
+
+#Time: O(n)
+#Space: O(1)

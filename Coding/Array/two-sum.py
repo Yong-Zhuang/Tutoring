@@ -5,3 +5,7 @@ class Solution:
             if dic.get(target - nums[i]) is not None:
                 return [dic[target - nums[i]], i]
             dic[nums[i]] = i
+
+
+#Time: O(n)
+#Space: O(n)
