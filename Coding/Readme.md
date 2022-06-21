@@ -1,4 +1,4 @@
-|Categories | Problem ID | Problems      🔴🟡🟢 | Solutions   |
+|Categories | ID | Problems      🔴🟡🟢 | Solutions   |
 | :---       | :---    | :---        |  :--- |
 |**Array**||🟢[Two Sum](https://leetcode.com/problems/two-sum/)|[solution](Array/two-sum.py)|
 |||🟡[Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[solution](Array/two-sum-ii-input-array-is-sorted.py)|
@@ -13,6 +13,7 @@
 |||🟡[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[solution](Array/container-with-most-water.py)|
 |||🟡[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[solution](Array/top-k-frequent-elements.py)|
 ||254|🟡[Factor Combinations](https://leetcode.com/problems/factor-combinations/)|[solution](Array/factor-combinations.py)|
+||254|[Degree of Freedom](Array/degree-of-freedom.py)|[solution](Array/degree-of-freedom.py)|
 |**Binary**||🟡[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[solution](Binary/sum-of-two-integers.py)|
 |||🟢[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[solution](Binary/number-of-1-bits.py)|
 |||🟢[Counting Bits](https://leetcode.com/problems/counting-bits/)|[solution](Binary/counting-bits.py)|
@@ -25,18 +26,18 @@
 |||🟡[Coin Change](https://leetcode.com/problems/coin-change/)| [solution](Dynamic%20Programming/coin-change.py)| 
 |||🟡[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| [solution](Dynamic%20Programming/longest-increasing-subsequence.py)| 
 |||🟡[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)| [solution](Dynamic%20Programming/longest-common-subsequence.py)| 
-|||🟡[Word Break](https://leetcode.com/problems/word-break/)| [solution](Dynamic%20Programming/word-break.py)| 
-|||🟡[Combination](https://leetcode.com/problems/combinations/)| [solution](Dynamic%20Programming/combinations.py)| 
+||139|🟡[Word Break](https://leetcode.com/problems/word-break/)| [solution](Dynamic%20Programming/word-break.py)| 
+||77|🟡[Combination](https://leetcode.com/problems/combinations/)| [solution](Dynamic%20Programming/combinations.py)| 
 ||39|🟡[Combination Sum](https://leetcode.com/problems/combination-sum/)| [solution](Dynamic%20Programming/combination-sum.py)|
 ||216|🟡[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)| [solution](Dynamic%20Programming/combination-sum-iii.py)|  
-|||🟡[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)| [solution](Dynamic%20Programming/combination-sum-iv.py)|  
+||377|🟡[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)| [solution](Dynamic%20Programming/combination-sum-iv.py)|  
 |||🟡[House Robber](https://leetcode.com/problems/house-robber/)| [solution](Dynamic%20Programming/house-robber.py)| 
 |||🟡[House Robber II](https://leetcode.com/problems/house-robber-ii/)| [solution](Dynamic%20Programming/house-robber-ii.py)| 
-|||🟡[Decode Ways](https://leetcode.com/problems/decode-ways/)| [solution](Dynamic%20Programming/decode-ways.py)| 
+||91|🟡[Decode Ways](https://leetcode.com/problems/decode-ways/)| [solution](Dynamic%20Programming/decode-ways.py)| 
 |||🟡[Unique Paths](https://leetcode.com/problems/unique-paths/)| [solution](Dynamic%20Programming/unique-paths.py)| 
 |||🟡[Jump Game](https://leetcode.com/problems/jump-game/)| [solution](Dynamic%20Programming/jump-game.py)| 
 |**Graph**||🟡[Clone Graph](https://leetcode.com/problems/clone-graph/)|[solution](Graph/clone-graph.py)|
-|||🟡[Course Schedule](https://leetcode.com/problems/course-schedule/)|[solution](Graph/course-schedule.py)|
+||207|🟡[Course Schedule](https://leetcode.com/problems/course-schedule/)|[solution](Graph/course-schedule.py)|
 |||🟡[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|[solution](Graph/pacific-atlantic-water-flow.py)|
 |||🟡[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[solution](Graph/number-of-islands.py)|
 |||🟡[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|[solution](Graph/longest-consecutive-sequence.py)|
@@ -47,7 +48,7 @@
 |||🟡[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[solution](Interval/merge-intervals.py)|
 |||🟡[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)|[solution](Interval/non-overlapping-intervals.py)|
 |||🟢[Meeting Rooms (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms/)|[solution](Interval/meeting-rooms.py)|
-|||🟡[Meeting Rooms II (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms-ii/)|[solution](Interval/meeting-rooms-ii.py)|
+||253|🟡[Meeting Rooms II (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms-ii/)|[solution](Interval/meeting-rooms-ii.py)|
 |**Linked List**|| 🟢[Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)| [solution](Linked%20List/reverse-linked-list.py)| 
 |||🟢[Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)| [solution](Linked%20List/linked-list-cycle.py)| 
 |||🟢[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)| [solution](Linked%20List/merge-two-sorted-lists.py)|||
@@ -84,3 +85,4 @@
 |||🟡[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|[solution](Tree/implement-trie-prefix-tree.py)|
 |||🟡[Add and Search Word](https://leetcode.com/problems/design-add-and-search-words-data-structure/)|[solution](Tree/design-add-and-search-words-data-structure.py)|
 |||🔴[Word Search II](https://leetcode.com/problems/word-search-ii/)|[solution](Tree/word-search-ii.py)|
+|||🔴[Word  Ladder](https://leetcode.com/problems/word-ladder/)|[solution](Tree/word-ladder.py)|
