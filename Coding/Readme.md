@@ -13,7 +13,10 @@
 |||🟡[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[solution](Array/container-with-most-water.py)|
 |||🟡[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[solution](Array/top-k-frequent-elements.py)|
 ||254|🟡[Factor Combinations](https://leetcode.com/problems/factor-combinations/)|[solution](Array/factor-combinations.py)|
-||254|[Degree of Freedom](Array/degree-of-freedom.py)|[solution](Array/degree-of-freedom.py)|
+|||[Degree of Freedom](Array/degree-of-freedom.py)|[solution](Array/degree-of-freedom.py)|
+||907|🟡[Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)|[solution](Array/sum-of-subarray-minimums.py)|
+||2104|🟡[Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/)|[solution](Array/sum-of-subarray-ranges.py)|
+||2104|🟡[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|[solution](Array/k-closest-points-to-origin.py)|
 |**Binary**||🟡[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[solution](Binary/sum-of-two-integers.py)|
 |||🟢[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[solution](Binary/number-of-1-bits.py)|
 |||🟢[Counting Bits](https://leetcode.com/problems/counting-bits/)|[solution](Binary/counting-bits.py)|
@@ -69,6 +72,8 @@
 |||🟡[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[solution](String/longest-palindromic-substring.py)|
 |||🟡[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[solution](String/palindromic-substrings.py)|
 |||🟡[Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)|[solution](String/encode-and-decode-strings.py)|
+||926|🟡[Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/)|[solution](String/flip-string-to-monotone-increasing.py)|
+||9193|🔴[Minimum Number of Moves to Make Palindrome](https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/)|[solution](String/minimum-number-of-moves-to-make-palindrome.py)|
 |**Tree**||🟢[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[solution](Tree/maximum-depth-of-binary-tree.py)|
 |||🟢[Same Tree](https://leetcode.com/problems/same-tree/)|[solution](Tree/same-tree.py)|
 |||🟢[Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[solution](Tree/invert-binary-tree.py)|
