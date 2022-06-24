@@ -17,11 +17,17 @@
 ||907|🟡[Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)|[solution](Array/sum-of-subarray-minimums.py)|
 ||2104|🟡[Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/)|[solution](Array/sum-of-subarray-ranges.py)|
 ||2104|🟡[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|[solution](Array/k-closest-points-to-origin.py)|
+
+|Categories | ID | Problems      🔴🟡🟢 | Solutions   |
+| :---       | :---    | :---        |  :--- |
 |**Binary**||🟡[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[solution](Binary/sum-of-two-integers.py)|
 |||🟢[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[solution](Binary/number-of-1-bits.py)|
 |||🟢[Counting Bits](https://leetcode.com/problems/counting-bits/)|[solution](Binary/counting-bits.py)|
 |||🟢[Missing Number](https://leetcode.com/problems/missing-number/)|[solution](Binary/missing-number.py)|
 |||🟢[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[solution](Binary/reverse-bits.py)|
+
+|Categories | ID | Problems      🔴🟡🟢 | Solutions   |
+| :---       | :---    | :---        |  :--- |
 |**Dynamic Programming**||🟢[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)| [solution](Dynamic%20Programming/climbing-stairs.py)|
 |||🟢[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)| [solution](Dynamic%20Programming/fibonacci-number.py)| 
 |||[Grid Traveler](Dynamic%20Programming/grid-traveler.py)| [solution](Dynamic%20Programming/grid-traveler.py)|
@@ -39,6 +45,9 @@
 ||91|🟡[Decode Ways](https://leetcode.com/problems/decode-ways/)| [solution](Dynamic%20Programming/decode-ways.py)| 
 |||🟡[Unique Paths](https://leetcode.com/problems/unique-paths/)| [solution](Dynamic%20Programming/unique-paths.py)| 
 |||🟡[Jump Game](https://leetcode.com/problems/jump-game/)| [solution](Dynamic%20Programming/jump-game.py)| 
+
+|Categories | ID | Problems      🔴🟡🟢 | Solutions   |
+| :---       | :---    | :---        |  :--- |
 |**Graph**||🟡[Clone Graph](https://leetcode.com/problems/clone-graph/)|[solution](Graph/clone-graph.py)|
 ||207|🟡[Course Schedule](https://leetcode.com/problems/course-schedule/)|[solution](Graph/course-schedule.py)|
 |||🟡[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|[solution](Graph/pacific-atlantic-water-flow.py)|
@@ -47,21 +56,33 @@
 |||🔴[Alien Dictionary (Leetcode Premium)](https://leetcode.com/problems/alien-dictionary/)|[solution](Graph/alien-dictionary.py)|
 |||🟡[Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/)|[solution](Graph/graph-valid-tree.py)|
 |||🟡[Number of Connected Components in an Undirected Graph (Leetcode Premium)](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)|[solution](Graph/number-of-connected-components-in-an-undirected-graph.py)|
+
+|Categories | ID | Problems      🔴🟡🟢 | Solutions   |
+| :---       | :---    | :---        |  :--- |
 |**Interval**||🟡[Insert Interval](https://leetcode.com/problems/insert-interval/)|[solution](Interval/insert-interval.py)|
 |||🟡[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[solution](Interval/merge-intervals.py)|
 |||🟡[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)|[solution](Interval/non-overlapping-intervals.py)|
 |||🟢[Meeting Rooms (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms/)|[solution](Interval/meeting-rooms.py)|
 ||253|🟡[Meeting Rooms II (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms-ii/)|[solution](Interval/meeting-rooms-ii.py)|
+
+|Categories | ID | Problems      🔴🟡🟢 | Solutions   |
+| :---       | :---    | :---        |  :--- |
 |**Linked List**|| 🟢[Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)| [solution](Linked%20List/reverse-linked-list.py)| 
 |||🟢[Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)| [solution](Linked%20List/linked-list-cycle.py)| 
 |||🟢[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)| [solution](Linked%20List/merge-two-sorted-lists.py)|||
 |||🔴[Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| [solution](Linked%20List/merge-k-sorted-lists.py)| 
 |||🟡[Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [solution](Linked%20List/remove-nth-node-from-end-of-list.py)| 
 |||🟡[Reorder List](https://leetcode.com/problems/reorder-list/)| [solution](Linked%20List/reorder-list.py)| 
+
+|Categories | ID | Problems      🔴🟡🟢 | Solutions   |
+| :---       | :---    | :---        |  :--- |
 |**Matrix**||🟡[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|[solution](Matrix/set-matrix-zeroes.py)|
 |||🟡[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[solution](Matrix/spiral-matrix.py)|
 |||🟡[Rotate Image](https://leetcode.com/problems/rotate-image/)|[solution](Matrix/rotate-image.py)|
 |||🟡[Word Search](https://leetcode.com/problems/word-search/)|[solution](Matrix/word-search.py)|
+
+|Categories | ID | Problems      🔴🟡🟢 | Solutions   |
+| :---       | :---    | :---        |  :--- |
 |**String**||🟡[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[solution](String/longest-substring-without-repeating-characters.py)|
 |||🟡[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[solution](String/longest-repeating-character-replacement.py)|
 |||🔴[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|[solution](String/minimum-window-substring.py)|
@@ -74,6 +95,9 @@
 |||🟡[Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)|[solution](String/encode-and-decode-strings.py)|
 ||926|🟡[Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/)|[solution](String/flip-string-to-monotone-increasing.py)|
 ||9193|🔴[Minimum Number of Moves to Make Palindrome](https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/)|[solution](String/minimum-number-of-moves-to-make-palindrome.py)|
+
+|Categories | ID | Problems      🔴🟡🟢 | Solutions   |
+| :---       | :---    | :---        |  :--- |
 |**Tree**||🟢[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[solution](Tree/maximum-depth-of-binary-tree.py)|
 |||🟢[Same Tree](https://leetcode.com/problems/same-tree/)|[solution](Tree/same-tree.py)|
 |||🟢[Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[solution](Tree/invert-binary-tree.py)|
