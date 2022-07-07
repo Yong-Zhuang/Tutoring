@@ -1,3 +1,4 @@
+from collections import OrderedDict
 class Node:
     def __init__(self, key=0, val=0, prev=None, next=None):
         self.key = key
@@ -48,6 +49,36 @@ class LRUCache:
         node.prev = prev
         node.next = self.tail
         self.tail.prev = node
+
+
+# Your LRUCache object will be instantiated and called as such:
+# obj = LRUCache(capacity)
+# param_1 = obj.get(key)
+# obj.put(key,value)
+
+
+class LRUCache:
+
+    def __init__(self, capacity: int):
+        self.capacity = capacity
+        self.dic = OrderedDict()
+
+    def get(self, key: int) -> int:
+        if key in self.dic:
+            val = self.dic.pop(key)
+            self.dic[key] = val
+            return val
+        return -1
+
+    def put(self, key: int, value: int) -> None:
+        if key in self.dic:
+            self.dic.pop(key)
+        else:
+            if self.capacity <= 0:
+                self.dic.popitem(last=False)
+            else:
+                self.capacity -= 1
+        self.dic[key] = value
 
 
 # Your LRUCache object will be instantiated and called as such:
