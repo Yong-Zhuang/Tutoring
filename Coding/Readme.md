@@ -22,8 +22,7 @@
 ||264|🟡[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[solution](Array/ugly-number-ii.py)|
 ||1201|🟡[Ugly Number III](https://leetcode.com/problems/ugly-number-iii/)|[solution](Array/ugly-number-iii.py)|
 ||120|🟡[Triangle](https://leetcode.com/problems/triangle/)|[solution](Array/triangle.py)|
-||31|🟡[Next Permutation
-](https://leetcode.com/problems/next-permutation/)|[solution](Array/next-permutation.py)|
+||31|🟡[Next Permutation](https://leetcode.com/problems/next-permutation/)|[solution](Array/next-permutation.py)|
 |**Binary**||🟡[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[solution](Binary/sum-of-two-integers.py)|
 |||🟢[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[solution](Binary/number-of-1-bits.py)|
 |||🟢[Counting Bits](https://leetcode.com/problems/counting-bits/)|[solution](Binary/counting-bits.py)|
@@ -133,6 +132,5 @@
 ||124|🔴[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|[solution](Tree/binary-tree-maximum-path-sum.py)|
 ||135|🔴[Candy](https://leetcode.com/problems/candy/)| [solution](Dynamic%20Programming/candy.py)| 
 |||🟡[Sub Sorting](https://leetcode.cn/problems/sub-sort-lcci/)| [solution](Tiktok/sub-sort-lcci.py)| 
-||31|🟡[Next Permutation
-](https://leetcode.com/problems/next-permutation/)|[solution](Array/next-permutation.py)|
+||31|🟡[Next Permutation](https://leetcode.com/problems/next-permutation/)|[solution](Array/next-permutation.py)|
 ||402|🟡[Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|[solution](String/remove-k-digits.py)|
