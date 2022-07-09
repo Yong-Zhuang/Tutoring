@@ -60,6 +60,7 @@
 |||🟢[Meeting Rooms (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms/)|[solution](Interval/meeting-rooms.py)|
 ||253|🟡[Meeting Rooms II (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms-ii/)|[solution](Interval/meeting-rooms-ii.py)|
 |**Linked List**|| 🟢[Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)| [solution](Linked%20List/reverse-linked-list.py)| 
+||92| 🟡[Reverse a Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)| [solution](Linked%20List/reverse-linked-list-ii.py)| 
 ||141|🟢[Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)| [solution](Linked%20List/linked-list-cycle.py)| 
 ||21|🟢[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)| [solution](Linked%20List/merge-two-sorted-lists.py)|||
 |||🔴[Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| [solution](Linked%20List/merge-k-sorted-lists.py)| 
@@ -109,6 +110,9 @@
 |||🔴[Word Search II](https://leetcode.com/problems/word-search-ii/)|[solution](Tree/word-search-ii.py)|
 |||🔴[Word  Ladder](https://leetcode.com/problems/word-ladder/)|[solution](Tree/word-ladder.py)|
 |**Tik**|232|🟢[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[solution](Tiktok/implement-queue-using-stacks.py)|
+||264|🟡[Ugly Number II](https://leetcode.com/problems/ugly-number-ii//)|[solution](Array/ugly-number-ii.py)|
+||1201|🟡[Ugly Number III](https://leetcode.com/problems/ugly-number-iii//)|[solution](Array/ugly-number-iii.py)|
+||114|🟡[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[solution](Tree/flatten-binary-tree-to-linked-list.py)|
 ||146|🟡[LRU Cache](https://leetcode.com/problems/lru-cache/)|[solution](Tiktok/lru-cache.py)|
 ||460|🟡[LFU Cache](https://leetcode.com/problems/lfu-cache/)|[solution](Tiktok/lfu-cache.py)|
 ||121|🟢[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[solution](Array/best-time-to-buy-and-sell-stock.py)|
@@ -124,9 +128,6 @@
 ||200|🟡[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[solution](Graph/number-of-islands.py)|
 |||🟡[Reorder List II](Linked%20List/reorder-list-ii.py/)|[solution](Linked%20List/reorder-list-ii.py)|
 ||94|🟢[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[solution](Tree/binary-tree-inorder-traversal.py)|
-||264|🟡[Ugly Number II](https://leetcode.com/problems/ugly-number-ii//)|[solution](Array/ugly-number-ii.py)|
-||1201|🟡[Ugly Number III](https://leetcode.com/problems/ugly-number-iii//)|[solution](Array/ugly-number-iii.py)|
-||114|🟡[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[solution](Tree/flatten-binary-tree-to-linked-list.py)|
 ||33|🟡[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[solution](Array/search-in-rotated-sorted-array.py)|
 ||21|🟢[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)| [solution](Linked%20List/merge-two-sorted-lists.py)|||
 ||124|🔴[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|[solution](Tree/binary-tree-maximum-path-sum.py)|
@@ -134,3 +135,17 @@
 |||🟡[Sub Sorting](https://leetcode.cn/problems/sub-sort-lcci/)| [solution](Tiktok/sub-sort-lcci.py)| 
 ||31|🟡[Next Permutation](https://leetcode.com/problems/next-permutation/)|[solution](Array/next-permutation.py)|
 ||402|🟡[Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|[solution](String/remove-k-digits.py)|
+||204|🟡[Count Primes](https://leetcode.com/problems/count-primes/)|[solution](Tiktok/count-primes.py)|
+||92| 🟡[Reverse a Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)| [solution](Linked%20List/reverse-linked-list-ii.py)| 
+|**Amazon**||[Application Pairs](Amazon/application-pairs.py)|[solution](Amazon/application-pairs.py)|
+|||[Beautiful Coins](Amazon/beautiful-coins.py)|[solution](Amazon/beautiful-coins.py)|
+|||[Biggest Linked Pair](Amazon/biggest-linked-pair.py)|[solution](Amazon/biggest-linked-pair.py)|
+|||[Count Family Logins](Amazon/count-family-logins.py)|[solution](Amazon/count-family-logins.py)|
+|||[Junction Boxes](Amazon/junction-boxes.py)|[solution](Amazon/junction-boxes.py)|
+|||[Number of Ways to Select Packages](Amazon/number-of-ways-to-select-packages.py)|[solution](Amazon/number-of-ways-to-select-packages.py)|
+|||[Group Packages.py](Amazon/group-packages.py.py)|[solution](Amazon/group-packages.py.py)|
+|||[Power Armor Game](Amazon/power-armor-game.py)|[solution](Amazon/power-armor-game.py)|
+|||[Demolition Robot](Amazon/demolition-robot.py)|[solution](Amazon/demolition-robot.py)|
+|||[Stock Minimum Change](Amazon/stock-minimum-change.py)|[solution](Amazon/stock-minimum-change.py)|
+|||[Student Rank Imbalance](Amazon/student-rank-imbalance.py)|[solution](Amazon/student-rank-imbalance.py)|
+|||[sum of all possible subarrays' scores](Amazon/sum-of-subarry-scores.py)|[solution](Amazon/sum-of-subarry-scores.py)|
