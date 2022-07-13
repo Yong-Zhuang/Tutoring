@@ -24,7 +24,8 @@
 ||33🟡[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[solution](Array/search-in-rotated-sorted-array.py)||
 ||🟡[3 Sum](https://leetcode.com/problems/3sum/)|[solution](Array/3sum.py)||
 ||🟡[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[solution](Array/container-with-most-water.py)||
-||🟡[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[solution](Array/top-k-frequent-elements.py)||
+||703🟢[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[solution](Array/kth-largest-element-in-a-stream.py)||
+||347🟡[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[solution](Array/top-k-frequent-elements.py)||
 ||254🟡[Factor Combinations](https://leetcode.com/problems/factor-combinations/)|[solution](Array/factor-combinations.py)||
 ||[Degree of Freedom](Array/degree-of-freedom.py)|[solution](Array/degree-of-freedom.py)||
 ||907🟡[Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)|[solution](Array/sum-of-subarray-minimums.py)||
@@ -70,7 +71,8 @@
 ||🟡[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)|[solution](Interval/non-overlapping-intervals.py)||
 ||🟢[Meeting Rooms (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms/)|[solution](Interval/meeting-rooms.py)||
 ||253🟡[Meeting Rooms II (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms-ii/)|[solution](Interval/meeting-rooms-ii.py)||
-|**Linked List**|🟢[Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)| [solution](Linked%20List/reverse-linked-list.py)|| 
+|**Linked List**|83🟢[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)| [solution](Linked%20List/remove-duplicates-from-sorted-list.py)|| 
+||🟢[Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)| [solution](Linked%20List/reverse-linked-list.py)|| 
 ||92🟡[Reverse a Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)| [solution](Linked%20List/reverse-linked-list-ii.py)|| 
 ||141🟢[Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)| [solution](Linked%20List/linked-list-cycle.py)|| 
 ||21🟢[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)| [solution](Linked%20List/merge-two-sorted-lists.py)||||
@@ -92,12 +94,12 @@
 ||🟡[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[solution](String/longest-substring-without-repeating-characters.py)||
 ||🟡[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[solution](String/longest-repeating-character-replacement.py)||
 ||🔴[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|[solution](String/minimum-window-substring.py)||
-||🟢[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[solution](String/valid-anagram.py)||
+||242🟢[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[solution](String/valid-anagram.py)||
 ||🟡[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[solution](String/group-anagrams.py)||
 ||🟢[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[solution](String/valid-parentheses.py)||
 ||🟢[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[solution](String/valid-palindrome.py)||
-||🟡[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[solution](String/longest-palindromic-substring.py)||
-||5🟡[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[solution](String/palindromic-substrings.py)||
+||5🟡[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[solution](String/longest-palindromic-substring.py)||
+||🟡[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[solution](String/palindromic-substrings.py)||
 ||🟡[Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)|[solution](String/encode-and-decode-strings.py)||
 ||926🟡[Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/)|[solution](String/flip-string-to-monotone-increasing.py)||
 ||9193🔴[Minimum Number of Moves to Make Palindrome](https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/)|[solution](String/minimum-number-of-moves-to-make-palindrome.py)||
@@ -108,7 +110,7 @@
 ||101🟢[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[solution](Tree/symmetric-tree.py)||
 ||🟢[Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[solution](Tree/invert-binary-tree.py)||
 ||124🔴[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|[solution](Tree/binary-tree-maximum-path-sum.py)||
-||🟡[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[solution](Tree/binary-tree-level-order-traversal.py)||
+||102🟡[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[solution](Tree/binary-tree-level-order-traversal.py)||
 ||🔴[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[solution](Tree/serialize-and-deserialize-binary-tree.py)||
 ||🟡[Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)|[solution](Tree/serialize-and-deserialize-bst.py)||
 ||🟢[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree)|[solution](Tree/subtree-of-another-tree.py)||
@@ -167,3 +169,7 @@
 |**goDaddy**|120🟡[Triangle](https://leetcode.com/problems/triangle/)|[solution](Array/triangle.py)||
 ||387🟢[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[solution](String/first-unique-character-in-a-string.py)||
 ||5🟡[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[solution](String/longest-palindromic-substring.py)||
+||347🟡[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[solution](Array/top-k-frequent-elements.py)||
+||242🟢[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[solution](String/valid-anagram.py)||
+||703🟢[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[solution](Array/kth-largest-element-in-a-stream.py)||
+||102🟡[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[solution](Tree/binary-tree-level-order-traversal.py)||
