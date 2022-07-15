@@ -1,4 +1,9 @@
 class Solution:
+    '''
+    Time: O(n+m) - m is the number of dependencies
+    Space: O(n+m)
+    '''
+
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         degree = [0]*numCourses
         courseDic = [[] for i in range(numCourses)]

@@ -5,6 +5,11 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+    '''
+    Time: O(n)
+    Space: O(n)
+    '''
+
     def buildTree(self, preorder: List[int], inorder: List[int]) -> TreeNode:
         def subBuildTree(stop):
             if inorder and inorder[0] != stop:

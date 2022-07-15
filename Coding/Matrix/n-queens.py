@@ -1,5 +1,10 @@
 class Solution:
-    # backtracking
+    '''
+    backtracking
+    Time: O(n!)
+    Space: O(n*n)
+    '''
+
     def solveNQueens(self, n: int) -> List[List[str]]:
         def validNQueens(colstack, pstack, nstack):
             row = len(colstack)
@@ -13,3 +18,7 @@ class Solution:
         colstack, pstack, nstack, result = [], [], [], []
         validNQueens(colstack, pstack, nstack)
         return [["."*i+"Q"+"."*(n-i-1) for i in sol] for sol in result]
+        '''
+        While it costs O(n**2) to build each valid solution, the amount of valid solutions S(N)does not grow nearly 
+        as fast as n!, so O(n! + S(n) * n ** 2) = O(n!)
+        '''

@@ -1,4 +1,9 @@
 class Solution:
+    '''
+    Time: O(n^2)
+    Space: O(n)
+    '''
+
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         p, n, z = [], [], []
         results = set()
@@ -25,6 +30,3 @@ class Solution:
                 if -n[i]-n[j] in P:
                     results.add(tuple(sorted((n[i], n[j], -n[i]-n[j]))))
         return results
-
-#Time: O(n^2)
-#Space: O(n)
