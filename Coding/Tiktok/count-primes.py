@@ -1,8 +1,16 @@
 class Solution:
+    '''
+    Time: O(sqrt(n)loglogn)
+    Space: O(n)
+    '''
+
     def countPrimes(self, n: int) -> int:
-        isPrimes = [1]*(n-2)
-        for i in range(2, n):
-            if isPrimes[i-2] == 1:
+        if n < 2:
+            return 0
+        isPrime = [True for _ in range(n)]
+        isPrime[0] = isPrime[1] = False
+        for i in range(int(sqrt(n))+1):
+            if isPrime[i]:
                 for j in range(i*i, n, i):
-                    isPrimes[j-2] = 0
-        return sum(isPrimes)
+                    isPrime[j] = False
+        return sum(isPrime)

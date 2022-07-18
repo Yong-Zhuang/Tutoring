@@ -35,6 +35,7 @@
 ||1201🟡[Ugly Number III](https://leetcode.com/problems/ugly-number-iii/)|[solution](Array/ugly-number-iii.py)||
 ||120🟡[Triangle](https://leetcode.com/problems/triangle/)|[solution](Array/triangle.py)||
 ||31🟡[Next Permutation](https://leetcode.com/problems/next-permutation/)|[solution](Array/next-permutation.py)||
+||41🔴[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[solution](Array/first-missing-positive.py)||
 |**Binary**|🟡[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[solution](Binary/sum-of-two-integers.py)||
 ||🟢[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[solution](Binary/number-of-1-bits.py)||
 ||🟢[Counting Bits](https://leetcode.com/problems/counting-bits/)|[solution](Binary/counting-bits.py)||
@@ -93,6 +94,7 @@
 ||344🟢[Reverse String](https://leetcode.com/problems/reverse-string/)|[solution](String/reverse-string.py)||
 ||541🟢[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[solution](String/reverse-string-ii.py)||
 ||🟢[Replace Blanks](https://leetcode.com/problems/replace-blanks/)|[solution](String/replace-blanks.py)||
+||93🟡[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|[solution](String/restore-ip-addresses.py)||
 ||🟡[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[solution](String/longest-substring-without-repeating-characters.py)||
 ||🟡[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[solution](String/longest-repeating-character-replacement.py)||
 ||76🔴[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|[solution](String/minimum-window-substring.py)||
@@ -129,8 +131,9 @@
 ||🔴[Word Search II](https://leetcode.com/problems/word-search-ii/)|[solution](Tree/word-search-ii.py)||
 ||127🔴[Word  Ladder](https://leetcode.com/problems/word-ladder/)|[solution](Tree/word-ladder.py)||
 |**Tik**|232🟢[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[solution](Tiktok/implement-queue-using-stacks.py)||
-||264🟡[Ugly Number II](https://leetcode.com/problems/ugly-number-ii//)|[solution](Array/ugly-number-ii.py)||
-||1201🟡[Ugly Number III](https://leetcode.com/problems/ugly-number-iii//)|[solution](Array/ugly-number-iii.py)||
+||93🟡[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|[solution](String/restore-ip-addresses.py)||
+||264🟡[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[solution](Array/ugly-number-ii.py)||
+||1201🟡[Ugly Number III](https://leetcode.com/problems/ugly-number-iii/)|[solution](Array/ugly-number-iii.py)||
 ||114🟡[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[solution](Tree/flatten-binary-tree-to-linked-list.py)||
 ||146🟡[LRU Cache](https://leetcode.com/problems/lru-cache/)|[solution](Tiktok/lru-cache.py)||
 ||460🟡[LFU Cache](https://leetcode.com/problems/lfu-cache/)|[solution](Tiktok/lfu-cache.py)||
@@ -157,6 +160,7 @@
 ||402🟡[Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|[solution](String/remove-k-digits.py)||
 ||204🟡[Count Primes](https://leetcode.com/problems/count-primes/)|[solution](Tiktok/count-primes.py)||
 ||92🟡[Reverse a Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)| [solution](Linked%20List/reverse-linked-list-ii.py)|| 
+||41🔴[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[solution](Array/first-missing-positive.py)||
 |**Amazon**|[Application Pairs](Amazon/application-pairs.py)|[solution](Amazon/application-pairs.py)||
 ||[Beautiful Coins](Amazon/beautiful-coins.py)|[solution](Amazon/beautiful-coins.py)||
 ||[Biggest Linked Pair](Amazon/biggest-linked-pair.py)|[solution](Amazon/biggest-linked-pair.py)||
